@@ -62,11 +62,21 @@ body {
   padding-right: 20px;
   padding-left: 20px;
 }
-.nav-sidebar > .active > a,
-.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a {
+  color: #061639;
+  background-color: #7788AA;
+  },
+.nav-sidebar > .active > a:hover {
+  /*color: #aaa;*/
+/*  background-color: #430acb;*/
+  color: #061639;
+  background-color: #7788AA;
+  },
 .nav-sidebar > .active > a:focus {
-  color: #fff;
-  background-color: #428bca;
+/*  color: #fff;*/
+/*  background-color: #428bca;*/
+  color: #061639;
+  background-color: #7788AA;
 }
 
 
@@ -105,6 +115,8 @@ body {
 .placeholder img {
   display: inline-block;
   border-radius: 50%;
+  height: 200px;
+  width: 200px;
 }
 
 .nav-sidebar > li:hover a.deletex{
